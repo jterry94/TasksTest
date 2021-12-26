@@ -17,6 +17,10 @@
 		A570D46D2778EE60000A6124 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570D4452778EE5E000A6124 /* ContentView.swift */; };
 		A570D46E2778EE60000A6124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A570D4462778EE60000A6124 /* Assets.xcassets */; };
 		A570D46F2778EE60000A6124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A570D4462778EE60000A6124 /* Assets.xcassets */; };
+		A570D47F2778F052000A6124 /* MathClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570D47E2778F052000A6124 /* MathClass.swift */; };
+		A570D4802778F052000A6124 /* MathClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570D47E2778F052000A6124 /* MathClass.swift */; };
+		A570D4812778F052000A6124 /* MathClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570D47E2778F052000A6124 /* MathClass.swift */; };
+		A570D4822778F052000A6124 /* MathClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A570D47E2778F052000A6124 /* MathClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,7 @@
 		A570D4622778EE60000A6124 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A570D4662778EE60000A6124 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A570D4682778EE60000A6124 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		A570D47E2778F052000A6124 /* MathClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,7 @@
 			children = (
 				A570D4442778EE5E000A6124 /* TasksTestApp.swift */,
 				A570D4452778EE5E000A6124 /* ContentView.swift */,
+				A570D47E2778F052000A6124 /* MathClass.swift */,
 				A570D4462778EE60000A6124 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -291,6 +297,7 @@
 			files = (
 				A570D46C2778EE60000A6124 /* ContentView.swift in Sources */,
 				A570D46A2778EE60000A6124 /* TasksTestApp.swift in Sources */,
+				A570D47F2778F052000A6124 /* MathClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +307,7 @@
 			files = (
 				A570D46D2778EE60000A6124 /* ContentView.swift in Sources */,
 				A570D46B2778EE60000A6124 /* TasksTestApp.swift in Sources */,
+				A570D4802778F052000A6124 /* MathClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +317,7 @@
 			files = (
 				A570D45D2778EE60000A6124 /* Tests_iOSLaunchTests.swift in Sources */,
 				A570D45B2778EE60000A6124 /* Tests_iOS.swift in Sources */,
+				A570D4812778F052000A6124 /* MathClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +327,7 @@
 			files = (
 				A570D4692778EE60000A6124 /* Tests_macOSLaunchTests.swift in Sources */,
 				A570D4672778EE60000A6124 /* Tests_macOS.swift in Sources */,
+				A570D4822778F052000A6124 /* MathClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +538,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jtIIT.TasksTest;
 				PRODUCT_NAME = TasksTest;
@@ -557,7 +567,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jtIIT.TasksTest;
 				PRODUCT_NAME = TasksTest;

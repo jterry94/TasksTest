@@ -30,6 +30,21 @@ class Tests_iOS: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testSlowSum() async throws {
+            
+        let mathClass = MathClass()
+            
+        await mathClass.slowSum(i: 1, addend1: 2.0, addend2: 3.0, randomSleep: 2)
+            
+        let returnString = mathClass.calculationString
+            
+        XCTAssertEqual(returnString, "The sum of the 1th addition 2.0 and 3.0 is 5.0 with sleep time 2 sec.\n")
+        
+       
+            
+            
+    }
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
